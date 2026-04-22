@@ -379,13 +379,13 @@ function QuoteBooking() {
   // Replace 44XXXXXXXXXX with your WhatsApp number (no spaces, include country code)
   const handleWhatsApp = () => {
     const msg = encodeURIComponent(buildQuoteMessage());
-    window.open(`https://wa.me/44XXXXXXXXXX?text=${msg}`, "_blank"); // ← Replace number
+    window.open(`https://wa.me/4407594780797?text=${msg}`, "_blank"); // ← Replace number
   };
 
   // ── Open Facebook Messenger ──
   // Replace YOUR_PAGE_NAME with your Facebook page username
   const handleFacebook = () => {
-    window.open("https://m.me/YOUR_PAGE_NAME", "_blank"); // ← Replace page name
+    window.open("https://m.me/Gberrisdetails", "_blank"); // ← Replace page name
   };
 
   // ── Checkbox helper ──
@@ -789,7 +789,7 @@ function About() {
                   </svg>
                 </div>
                 <span className="text-slate-300 group-hover:text-white transition-colors">
-                  +44 0000 000 000 {/* ← Replace with your number */}
+                  +44 07594 780 797 {/* ← Replace with your number */}
                 </span>
               </a>
 
@@ -797,7 +797,7 @@ function About() {
               {[
                 {
                   name: "Facebook",
-                  url: "https://facebook.com/gbdetailing", // ← Replace URL
+                  url: "https://facebook.com/Gberrisdetails", // ← Replace URL
                   icon: (
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
@@ -806,7 +806,7 @@ function About() {
                 },
                 {
                   name: "Instagram",
-                  url: "https://instagram.com/gbdetailing", // ← Replace URL
+                  url: "https://instagram.com/gb_detaling", // ← Replace URL
                   icon: (
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <rect x="2" y="2" width="20" height="20" rx="5" ry="5" strokeWidth={2} />
@@ -817,7 +817,7 @@ function About() {
                 },
                 {
                   name: "TikTok",
-                  url: "https://tiktok.com/@gbdetailing", // ← Replace URL
+                  url: "https://tiktok.com/@gb_details", // ← Replace URL
                   icon: (
                     <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.3 6.3 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.69a8.18 8.18 0 004.79 1.53V6.77a4.84 4.84 0 01-1.03-.08z" />
